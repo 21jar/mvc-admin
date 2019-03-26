@@ -71,7 +71,7 @@
 
     <!-- MyBatis 动态扫描  -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.ainijar.modules.sys.dao"/>
+        <property name="basePackage" value="com.ainijar.modules.*.dao"/>
     </bean>
 
     <!-- 配置事务管理 -->
